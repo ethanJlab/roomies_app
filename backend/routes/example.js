@@ -5,6 +5,7 @@ import {MongoClient, ServerApiVersion} from 'mongodb';
 export const exampleRouter = express.Router();
 import * as dotenv from 'dotenv';
 dotenv.config();
+//test 
 
 
 const uri = process.env.MONGO_URI;
